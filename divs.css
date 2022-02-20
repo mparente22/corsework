@@ -1,0 +1,42 @@
+.div1 {
+    width: 33%;
+    height: 100%;
+    border: 5px dashed #000;
+    text-align: center;
+    box-sizing:  border-box;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    padding: 30px 20px 10px 20px;
+    background-color: peachpuff;
+    display: inline-block;
+}
+.div2 {
+    width: 33%;
+    height: 100%;
+    border: 5px dashed #000;
+    text-align: center;
+    box-sizing:  border-box;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    padding: 30px 20px 10px 20px;
+    background-color: pink;
+    display: inline-block;
+}
+.div3 {
+    width: 33%;
+    height: 100%;
+    border: 5px dashed #000;
+    text-align: center;
+    box-sizing:  border-box;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    padding: 30px 20px 10px 20px;
+    background-color: peachpuff;
+    display: inline-block;
+}
+.mydivimg {
+    width: 33%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid rgb(236, 183, 191);
+}
