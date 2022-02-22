@@ -1,3 +1,22 @@
+.head1 {
+    width: 50%;
+    height: 100%;
+    border: 5px dashed #000;
+    text-align: center;
+    box-sizing:  border-box;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    padding: 30px 20px 10px 20px;
+    background-color: peachpuff;
+    display: inline-block;
+}
+section {
+    min-width: 100%;
+    white-space: nowrap;
+}
+p {
+    white-space: normal;
+}
 .div1 {
     width: 33%;
     height: 100%;
@@ -11,7 +30,7 @@
     display: inline-block;
 }
 .div2 {
-    width: 33%;
+    width: 33.3%;
     height: 100%;
     border: 5px dashed #000;
     text-align: center;
@@ -37,6 +56,17 @@
 .mydivimg {
     width: 33%;
     height: auto;
-    border-radius: 50%;
+    border-radius: 30%;
     border: 5px solid rgb(236, 183, 191);
+}
+.mydivimg:hover {
+    border-radius: 50%;
+    transition: 1s;
+}
+nav, ul, li{
+    width: 100%;
+    display: inline;
+    text-align: center;
+    margin-inline: 10px;
+    padding: 30px;
 }
